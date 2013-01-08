@@ -1,0 +1,240 @@
+class Sensors
+	{
+		items=16;
+		class Item0
+		{
+			position[]={13391.466,10.101187,6604.7324};
+			a=10;
+			b=10;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			name="REFUEL";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item1
+		{
+			position[]={12993.984,12.258109,10075.086};
+			a=10;
+			b=10;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item2
+		{
+			position[]={9498.9219,11.807028,2012.2668};
+			a=10;
+			b=10;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item3
+		{
+			position[]={6703.3442,12.557623,2994.9663};
+			a=10;
+			b=10;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item4
+		{
+			position[]={5854.4194,5.4910603,2192.7046};
+			a=10;
+			b=10;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item5
+		{
+			position[]={2021.1644,5.7345586,2242.2556};
+			a=5;
+			b=5;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item6
+		{
+			position[]={2688.1584,229.50237,5603.7388};
+			a=6;
+			b=6;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item7
+		{
+			position[]={2996.1978,349.16144,7472.4092};
+			a=8;
+			b=8;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item8
+		{
+			position[]={3651.5625,317.20349,8972.3896};
+			a=8;
+			b=8;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item9
+		{
+			position[]={4732.8491,281.78271,6381.0791};
+			a=5;
+			b=5;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item10
+		{
+			position[]={4732.9512,281.76999,6381.3228};
+			activationBy="ANY";
+			interruptable=1;
+			age="UNKNOWN";
+			class Effects
+			{
+			};
+		};
+		class Item11
+		{
+			position[]={7255.0444,293.88074,7660.4282};
+			a=5;
+			b=5;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item12
+		{
+			position[]={10157.442,237.45486,5304.2813};
+			a=10;
+			b=10;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item13
+		{
+			position[]={10451.866,229.43744,8870.6494};
+			a=10;
+			b=10;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item14
+		{
+			position[]={10727.905,143.56238,10784.749};
+			a=5;
+			b=5;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+		class Item15
+		{
+			position[]={5850.5835,277.35999,10111.842};
+			a=6;
+			b=6;
+			activationBy="ANY";
+			repeating=1;
+			interruptable=1;
+			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
+			class Effects
+			{
+			};
+		};
+	};
