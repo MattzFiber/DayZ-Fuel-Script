@@ -27,7 +27,7 @@ _OnOff = isEngineOn _object; //Determine if engine is on or off;
 while {fuel _object < 0.99} do {
         _OnOff = isEngineOn _object; //Determine if engine is on or off
         if (_OnOff) then
-        {exit;}
+        {exitwith {};}
 		else {
 	_object setFuel fuel _object + 0.1;
 	sleep 6;
