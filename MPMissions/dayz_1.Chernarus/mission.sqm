@@ -155,9 +155,14 @@ class Sensors
 		class Item10
 		{
 			position[]={4732.9512,281.76999,6381.3228};
+			a=5;
+			b=5;
 			activationBy="ANY";
+			repeating=1;
 			interruptable=1;
 			age="UNKNOWN";
+			expCond="this and ((getpos (thislist select 0)) select 2 < 1)";
+			expActiv="_xhandle= [(thislist select 0)] execVM ""scriptsMZ\MZ_reload.sqf"";";
 			class Effects
 			{
 			};
