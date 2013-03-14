@@ -1,5 +1,5 @@
 // by Mattz for DayZ (C)
-private ["_config","_count","_i","_magazines","_object","_type","_type_name"];
+private ["_object","_type","_type_name"];
 _object = _this select 0;
 _type = typeof _object;
 if (_object isKindOf "ParachuteBase") exitWith {};
@@ -27,7 +27,7 @@ _OnOff = isEngineOn _object; //Determine if engine is on or off;
 while {fuel _object < 0.99} do {
         _OnOff = isEngineOn _object; //Determine if engine is on or off
         if (_OnOff) then
-        {exitwith {};}
+        {exit;}
 		else {
 	_object setFuel fuel _object + 0.1;
 	sleep 6;
